@@ -1,0 +1,28 @@
+Ultimate toolkit to build interactive maps for your games. Draw beautiful custom maps in minutes, then instantly add them to your game with fully working menus and controls.
+
+
+Grid map maker provides everything you need to build engaging, exploration-driven maps similar to classic Metroidvanias and modern Action RPGs (like Hollow Knight or Super Metroid). Whether you want the map to reveal automatically as the player explores, or strictly when they find a map-piece or rest at a checkpoint, Grid map maker handles all the heavy lifting for you!
+Get up and running in minutes using the extensive visual editor and the intuitive Runtime Setup Wizard.
+
+🗺️ Visual Grid Editor
+Paint Your World: Easily paint cells to represent rooms, corridors, and open areas directly in the Scene view.
+Edges & Walls: Visually add gates, walls, and impassable areas between cells.
+Area Grouping: Group cells into distinct areas (e.g., "Crystal Caves", "Dark Forest") with customizable colors and visual styles.
+📍 Comprehensive Marker System
+Designer Markers: Place static icons like bosses, shops, or save points directly in the editor. Toggle their visibility dynamically via code!
+Player Markers: Let players place their own custom notes and pins on the map (with configurable limits and varied icons).
+Auto-Generated Legend: Automatically display a clean UI legend for all your map markers.
+🎮 Ready-to-Use UI & Controls
+Map Controller: Built-in support for smooth panning, zooming, and map toggling.
+Input Ready: Works seamlessly with both the Legacy Input Manager and the New Input System.
+Fully Customizable: The provided MapUI_Parent prefab gives you a beautiful starting point that is incredibly easy to customize to your game's unique aesthetic.
+⚙️ Dynamic Reveal Strategies
+Immediate Reveal: Cells light up on the map exactly as the player enters them in the world.
+Manual Reveal: Keep cells hidden until the player buys a map or interacts with a checkpoint. Fast API calls (RevealVisitedCells(), RevealArea()) make this trivial.
+💾 Flexible Save System
+Built-in Saving: Includes robust JSON saving with auto-save options and optional encryption out-of-the-box.
+Manual Mode: Already have a save system? Effortlessly integrate Grid map maker's state into your existing save files using a single line of code.
+👨‍💻 Developer Friendly
+Setup Wizard: A 6-step wizard completely automates your runtime scene setup.
+Clean API: An extensive, highly readable API to query world data, center the map, manipulate markers, and hook into powerful events (OnCellRevealed, OnPlayerAreaChanged, etc.).
+Well Documented: Every component has detailed tooltips, and the package includes 5 comprehensive guides.

@@ -1,0 +1,29 @@
+Build massive 2D worlds 10x faster. Render 100+ scenes with zero editor lag using Proxy Mode. Fast prefab & room placement, plus seamless multi-scene management.
+
+2D Multi Scene Level Designer:  is a toolkit built to remove the bottlenecks of creating massive 2D worlds. If you are building a Metroidvania, a RPG, a large open world, or platformer, you are bound to face a problem: loading many scenes at once drops the Unity Editor to very low FPS, and moving prefabs across scene boundaries becomes slow and tedious.
+This toolkit solves that with zero-cost Proxy Rendering, a World Palette for rapid placement, and bulk Scene Movement tools, letting you work on huge worlds smoothly while still seeing the full layout.
+
+🚀 Zero-Cost Proxy Mode
+Eliminates Editor lag by replacing heavy tilemap scenes with lightweight color-coded rectangles drawn using GL calls.
+Work with 50+ scenes loaded simultaneously while keeping smooth Editor performance.
+Maintain a bird’s-eye view of surrounding rooms while editing the active scene normally.
+Proxy data automatically updates every time a scene is saved.
+🎨 World Palette Tool
+A customizable Scene View HUD for drag-and-dropping prefabs and full room templates.
+Smart Scene Targeting: Automatically places objects in the correct Unity scene based on cursor position.
+Create multiple Collections and Profiles (Forest Props, Dungeon Enemies, Traps, etc.).
+Rotate objects quickly using the Ctrl key before placement.
+📦 Move Multiple Scenes Tool
+Move multiple scenes at once, bypassing Unity’s default limitations.
+Reposition dozens or even hundreds of scenes as easily as moving a single object.
+Advanced selection modes: Rectangle, Freehand Lasso, and Axis Constraints (for example, select everything to the right).
+Fully compatible with Unity’s Undo/Redo system.
+🛠️ Workflow & Quality of Life Features
+Quick Scene Activation: Ctrl + Click a proxy or object to instantly set its scene as active.
+Quick Cleanup: Shift + Double Click a scene proxy to unload it instantly.
+Auto-Unload on Play: Non-active scenes unload automatically when entering Play mode for faster testing.
+Global Grid Overlay: Customizable alignment grid for precise level design.
+💡 Use Cases
+Metroidvanias / Large Open Worlds: Design your full map layout using Proxy Mode with biome color grouping.
+Rapid Prototyping: Instantly place pre-configured room templates from the World Palette.
+Expanding the Map: Shift entire sections of the world to create space for new areas or boss rooms. ✨

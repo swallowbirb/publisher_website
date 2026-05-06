@@ -1,0 +1,16 @@
+The definitive 2D scene transition and auto room linking system for Unity. Create seamless room to room links and transitions without any manual effort. Five minutes setup and Zero coding required.
+
+2D Room Auto-Link & Scene Transition System is a complete scene transition and room-linking system explicitly built for 2D Unity games. It takes the headache out of building expansive multi-room worlds like Metroidvanias, RPGs, and puzzle games by handling scene loading, fading, and precise player placement out of the box.
+
+Stop manually keeping track of door IDs and let the built-in proximity Auto-Linker connect your world for you!
+
+✨ Highlights & Key Features
+Proximity Auto-Linking: Move your rooms side-by-side in the Scene View, and the exit gates will automatically connect to each other based on proximity. No manual ID entry needed.
+Intelligent Player Placement: Automatically offsets the player based on the door direction or applies upward velocity for bottom-exit jump pads.
+Visual Debugging: Green/Red connection gizmos and directional lines make it instantly clear which doors are linked and which are broken.
+Connection Validator: A one-click pre-build check that scans your entire project for broken links or scenes missing from the Build Settings.
+Robust Event System: Hook into Unity Events (OnBeforeTransition, OnAfterSceneUnload, OnAfterPlayerPlaced, etc.) to easily pause gameplay, play audio, or save the game during transitions.
+💡 Use Cases
+Metroidvanias: Connect hundreds of rooms seamlessly without unloading your core managers.
+Zelda-like RPGs: Transition smoothly between the overworld, houses, and dungeons.
+Platformers: Create interconnected zones with logic for spawn offsets and launch pads.
