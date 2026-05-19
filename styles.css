@@ -244,11 +244,11 @@ a {
 
 /* Benefits Section */
 .benefits {
-    padding: 8rem 0;
-    background-color: var(--bg-color);
+    padding: 6rem 0 8rem 0;
+    background-color: var(--bg-secondary);
     position: relative;
     z-index: 2;
-    margin-top: -100px; /* Overlap hero */
+    border-top: 1px solid var(--card-border);
 }
 
 .benefits-grid {
@@ -258,12 +258,12 @@ a {
 }
 
 .benefit-card {
-    background: var(--bg-color);
+    background: var(--card-bg);
     padding: 3rem 2rem;
     border-radius: 12px;
     text-align: center;
     position: relative;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     border-top: 4px solid transparent;
     transition: var(--transition);
 }
