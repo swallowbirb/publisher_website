@@ -427,7 +427,7 @@ a {
 }
 
 .contact-detail a:hover {
-    color: white;
+    color: var(--accent-teal);
 }
 
 /* Footer */
@@ -459,7 +459,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: white;
+    color: var(--accent-dark);
 }
 
 /* Animations */
