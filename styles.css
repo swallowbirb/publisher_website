@@ -121,7 +121,7 @@ a {
 }
 
 .btn-store:hover {
-    color: white;
+    color: var(--accent-dark);
     gap: 0.8rem;
 }
 
